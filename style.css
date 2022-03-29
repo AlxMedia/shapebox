@@ -707,8 +707,8 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .toggle-search #svg-close { display: none; }
 .toggle-search.active #svg-search { display: none; }
 .toggle-search.active #svg-close { display: block; fill: #fff; }
-.toggle-search:focus #svg-search { fill: #fff; }
-.toggle-search:focus #svg-close { fill: #fff; }
+.toggle-search:focus #svg-search,
+.toggle-search:focus #svg-close { fill: rgba(255,255,255,0.7); }
 
 
 /* ------------------------------------------------------------------------- *
