@@ -97,9 +97,9 @@
 	.s2 .themeform.searchform div:after { top: 12px; left: 26px; }
 	.nav-menu.mobile > div > ul > li:last-child { margin-bottom: 42px; }
 	.toggle-search .svg-icon,
-	.toggle-search.active #svg-close,
+	.toggle-search.active #svg-close { fill: #333; }
 	.toggle-search:focus #svg-search,
-	.toggle-search:focus #svg-close { fill: #333; }
+	.toggle-search:focus #svg-close { fill: #777; }
 	
 	#nav-header.nav-container { margin-top: 0; }
 	
