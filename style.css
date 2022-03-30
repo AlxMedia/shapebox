@@ -1066,10 +1066,10 @@ body.search .type-page .blog-card-author { display: none; }
 .sharrre-header .sharrre { float: left; }
 .sharrre-header .sharrre .box { display: block; padding: 0 14px 0 10px; border-left: 1px solid rgba(255,255,255,0.1); }
 .sharrre-header .sharrre .box:hover .share { color: #fff; }
-.sharrre-header .sharrre#twitter .box { border-left: 0; }
+.sharrre-header .sharrre#twitter .box { border-left: 0; padding-left: 0; }
 .sharrre-header .sharrre .count { display: none; width: 60%; margin-left: 10%; background: #eee; color: #fff; font-size: 15px; font-weight: 900; line-height: 30px; position: relative; text-align: center; border-radius: 6px; }
 .sharrre-header .sharrre .count:after { display: block; content:''; position: absolute; right: -12px; width: 0; height: 0; border: solid 6px transparent; border-left-color: #eee; bottom: 9px; }
-.sharrre-header .sharrre .share { color: rgba(255,255,255,0.6); width: 20%; margin-left: 10%; display: block; font-size: 24px; font-weight: 600; line-height: 32px; padding: 0; text-align: center; text-decoration: none; }
+.sharrre-header .sharrre .share { color: rgba(255,255,255,0.75); width: 20%; margin-left: 10%; display: block; font-size: 24px; font-weight: 600; line-height: 32px; padding: 0; text-align: center; text-decoration: none; }
 .sharrre-header .sharrre .share,
 .sharrre-header .sharrre .count,
 .sharrre-header .sharrre .count:after { float: left; -webkit-transition: all .3s ease; transition: all .3s ease; }
