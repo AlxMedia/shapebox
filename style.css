@@ -680,6 +680,10 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .site-header { background: #eee; }
 .site-image { display: block; margin: 0 auto; max-height: 400px; }
 
+@media only screen and (max-width: 720px) {
+	.site-title:after { background: linear-gradient(90deg, #c14bff 0%, #6c5dd3 100%); content:""; display: block; height: 4px; width: 100%; position: absolute; left: 0; right: 0; bottom: 0; }
+}
+
 #profile { background: linear-gradient(90deg, #c14bff 0%, #6c5dd3 100%); position: relative; border-radius: 20px; overflow: hidden; margin: 30px 30px 0; text-align: center; transition: all 0.2s ease; }
 #profile:after { content: ""; display: block; position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 1px solid hsla(0,0%,100%,.3); transition: color .2s,background-color .2s,border-color .2s; pointer-events: none; z-index: 1; }
 #profile a { color: #fff; }
