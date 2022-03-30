@@ -87,5 +87,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.1 - 2022-03-30 =
+* Fixed focus states for keyboard navigation
+* Fixed smaller elements and fonts for lower resolutions
+
 = 1.0.0 - 2022-03-30 =
 * Initial release

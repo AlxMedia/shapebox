@@ -117,6 +117,7 @@ if ( ! function_exists( 'shapebox_dynamic_css' ) ) {
 .entry a,
 .blog-card-title a:hover,
 .blog-card-category a,
+.blog-card-comments:focus,
 .blog-single-category a,
 .related-title a:hover,
 .sidebar .post-nav li a:hover span,

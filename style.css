@@ -1,7 +1,7 @@
 /*
 Theme Name: Shapebox
 Theme URI: http://alx.media/themes/shapebox/
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.9
@@ -999,10 +999,14 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .blog-card-category { padding: 0 20px 10px; }
 .blog-card-category a { background: #fff; color: #9754e9; font-weight: 600; box-shadow: 0 1px 0 rgba(0,0,0,0.06); border-radius: 20px; padding: 4px 12px; margin-right: 6px; margin-bottom: 4px; display: block; float: left; }
 .blog-card-category a:hover { background: #e5e5e5; }
-.blog-card-comments { color: rgba(0,0,0,0.7); text-shadow: 0 1px 0 rgba(255,255,255,0.2); font-size: 32px; position: absolute; right: 10px; top: 10px; transition: all 0.3s ease; z-index: 2; }
+.blog-card-comments { color: rgba(0,0,0,0.7); text-shadow: 0 1px 0 rgba(255,255,255,0.2); font-size: 32px; position: absolute; right: 10px; top: 10px; transition: all 0.3s ease; z-index: 6; }
 .blog-card-comments span { font-size: 12px; font-weight: 800; color: #fff; line-height: 30px; position: absolute; right: 0; top: 0; width: 100%; text-align: center; transition: all 0.3s ease; }
 .blog-card-comments:hover { color: #333; }
 .blog-card-comments:hover span { color: #fff; }
+
+.blog-card-author a:focus img,
+.blog-single-author a:focus img { border-color: #ccc; }
+.blog-card-comments:focus { color: #9754e9; }
 
 .sticky {}
 
