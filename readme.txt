@@ -87,6 +87,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.3 - 2022-03-31 =
+* Fixed image with caption overflowing the layout
+
 = 1.0.2 - 2022-03-30 =
 * Fixed focus state for mobile search button
 

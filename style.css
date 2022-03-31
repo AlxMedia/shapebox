@@ -1,7 +1,7 @@
 /*
 Theme Name: Shapebox
 Theme URI: http://alx.media/themes/shapebox/
-Version: 1.0.2
+Version: 1.0.3
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.9
@@ -248,7 +248,7 @@ input, textarea, button, select, label { font-family: inherit; }
 .entry img.aligncenter { margin: 18px auto; clear: both; display: block; }
 .entry img .size-full { width: 100%!important; }
 .entry .gallery img, .entry img.wp-smiley { margin: 0; }
-.entry .wp-caption { background: #f1f1f1; max-width: 100%; margin-bottom: 14px; padding-top: 5px; text-align: center; }
+.entry .wp-caption { background: #f1f1f1; max-width: 100%!important; margin-bottom: 14px; padding-top: 5px; text-align: center; }
 .entry .wp-caption-text { font-style: italic; }
 .entry .wp-caption a { border-bottom: none; }
 .entry .wp-caption img { margin: 0; max-width: 100%; height: auto; }
