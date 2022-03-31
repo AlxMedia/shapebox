@@ -20,12 +20,17 @@
 			
 		</div>
 		<div class="featured-item-bottom group">
-
-			<div class="blog-card-author">
-				<a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php echo get_avatar(get_the_author_meta('user_email'),'128'); ?></a>
-			</div>
-			<a class="blog-card-more-link" href="<?php the_permalink(); ?>"><?php esc_html_e('More','shapebox'); ?> <i class="fas fa-chevron-right"></i></a>
-	
+			
+			<?php if ( get_theme_mod( 'author-avatar', 'on' ) =='on' ): ?>
+				<div class="blog-card-author">
+					<a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php echo get_avatar(get_the_author_meta('user_email'),'128'); ?></a>
+				</div>
+			<?php endif; ?>
+			
+			<?php if ( get_theme_mod( 'more-button', 'on' ) =='on' ): ?>
+				<a class="blog-card-more-link" href="<?php the_permalink(); ?>"><?php esc_html_e('More','shapebox'); ?> <i class="fas fa-chevron-right"></i></a>
+			<?php endif; ?>
+			
 			<ul class="blog-card-meta group">
 				<li class="blog-card-date"><i class="far fa-calendar"></i><?php the_time( get_option('date_format') ); ?></li>
 			</ul>

@@ -1,7 +1,7 @@
 /*
 Theme Name: Shapebox
 Theme URI: http://alx.media/themes/shapebox/
-Version: 1.0.3
+Version: 1.0.4
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.9
@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; font-weight: 300; -ms-word-wrap: break-wor
 .entry h3,
 .entry h4,
 .entry h5,
-.entry h6 { font-weight: 600; line-height: 1.3em; }
+.entry h6 { font-weight: 800; line-height: 1.3em; }
 .entry h1 span, 
 .entry h2 span, 
 .entry h3 span, 
@@ -798,7 +798,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .nav-menu.mobile ul { border: 0; }
 .nav-menu.mobile ul li .menu-item-wrapper { justify-content: space-between; width: 100%; }
 .nav-menu.mobile > div > ul > li:last-child { margin-bottom: 52px; }
-.nav-menu.mobile ul li a { font-size: 16px; font-weight: 600; padding: 14px 20px; }
+.nav-menu.mobile ul li a { font-size: 16px; font-weight: 800; padding: 14px 20px; }
 .nav-menu.mobile ul ul li a { font-size: 14px; }
 .nav-menu.mobile ul ul li a { padding: 12px 0 12px 40px; }
 .nav-menu.mobile ul ul ul li a { padding: 12px 0 12px 60px; }

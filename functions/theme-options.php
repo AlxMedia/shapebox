@@ -192,6 +192,24 @@ Kirki::add_field( 'shapebox_theme', array(
 	'section'		=> 'blog',
 	'default'		=> 'off',
 ) );
+// Blog: More Button
+Kirki::add_field( 'shapebox_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'more-button',
+	'label'			=> esc_html__( 'More Button', 'shapebox' ),
+	'description'	=> esc_html__( 'Show the more buttons', 'shapebox' ),
+	'section'		=> 'blog',
+	'default'		=> 'on',
+) );
+// Blog: Author Avatar
+Kirki::add_field( 'shapebox_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'author-avatar',
+	'label'			=> esc_html__( 'Author Avatar', 'shapebox' ),
+	'description'	=> esc_html__( 'Show the circle avatars', 'shapebox' ),
+	'section'		=> 'blog',
+	'default'		=> 'on',
+) );
 // Blog: Comment Count
 Kirki::add_field( 'shapebox_theme', array(
 	'type'			=> 'switch',

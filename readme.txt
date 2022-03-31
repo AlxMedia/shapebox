@@ -87,6 +87,12 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.4 - 2022-03-31 =
+* Added option to disable author avatars
+* Added option to disable more buttons
+* Tweaked css details
+* Updated language files
+
 = 1.0.3 - 2022-03-31 =
 * Fixed image with caption overflowing the layout
 

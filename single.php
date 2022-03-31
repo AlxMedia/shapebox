@@ -39,9 +39,13 @@
 					<?php endif; ?>
 					
 					<div class="blog-single-bottom group">
-						<div class="blog-single-author">
-							<a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php echo get_avatar(get_the_author_meta('user_email'),'64'); ?></a>
-						</div>
+						
+						<?php if ( get_theme_mod( 'author-avatar', 'on' ) =='on' ): ?>
+							<div class="blog-single-author">
+								<a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php echo get_avatar(get_the_author_meta('user_email'),'64'); ?></a>
+							</div>
+						<?php endif; ?>
+						
 						<ul class="blog-single-meta group">	
 							<li class="blog-single-date"><i class="far fa-calendar"></i><?php the_time( get_option('date_format') ); ?></li>
 							<li class="blog-single-byline"><i class="far fa-user"></i><?php the_author_posts_link(); ?></li>
