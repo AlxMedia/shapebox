@@ -87,6 +87,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.5 - 2022-04-04 =
+* Fixed position of the play icon for featured video posts
+
 = 1.0.4 - 2022-03-31 =
 * Added option to disable author avatars
 * Added option to disable more buttons

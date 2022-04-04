@@ -1,7 +1,7 @@
 /*
 Theme Name: Shapebox
 Theme URI: http://alx.media/themes/shapebox/
-Version: 1.0.4
+Version: 1.0.5
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.9
@@ -893,7 +893,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .featured-title { color: #fff; font-size: 42px; font-weight: 800; letter-spacing: -1px; line-height: 1.3em; }
 .featured-link { width: 100%; height: 100%; display: block; top: 0; left: 0; position: absolute; z-index: 5; opacity: 0 !important; color: transparent !important; }
 .featured-link:focus { background: #fff; opacity: 0.2!important; }
-.featured-item .thumb-icon { top: 20px; right: 20px; bottom: auto; left: auto; }
+.featured-item .thumb-icon { top: 20px; left: 30px; bottom: auto; right: auto; }
 .featured-item:hover .thumb-icon { background: #fff; color: #222; }
 .featured-item-bottom { position: relative; z-index: 2; padding: 30px 20px 10px; }
 .featured-item-bottom .blog-card-meta { padding: 0; float: left; margin-top: 4px; }
