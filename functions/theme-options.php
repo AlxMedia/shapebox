@@ -702,6 +702,15 @@ Kirki::add_field( 'shapebox_theme', array(
 		'step'	=> '1',
 	),
 ) );
+// Styling: Dark
+Kirki::add_field( 'shapebox_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'dark-theme',
+	'label'			=> esc_html__( 'Dark Theme', 'shapebox' ),
+	'description'	=> esc_html__( 'Use dark instead of light base', 'shapebox' ),
+	'section'		=> 'styling',
+	'default'		=> 'off',
+) );
 // Styling: Primary Color
 Kirki::add_field( 'shapebox_theme', array(
 	'type'			=> 'color',

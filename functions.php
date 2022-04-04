@@ -220,6 +220,7 @@ if ( ! function_exists( 'shapebox_styles' ) ) {
 	function shapebox_styles() {
 		wp_enqueue_style( 'shapebox-style', get_stylesheet_uri() );
 		wp_enqueue_style( 'shapebox-responsive', get_template_directory_uri().'/responsive.css' );
+		if ( get_theme_mod('dark-theme','off') == 'on' ) { wp_enqueue_style( 'shapebox-dark', get_template_directory_uri().'/dark.css' ); }
 		wp_enqueue_style( 'shapebox-font-awesome', get_template_directory_uri().'/fonts/all.min.css' );
 	}
 	

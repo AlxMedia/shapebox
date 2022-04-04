@@ -668,7 +668,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .s2 .social-links li:before { content:""; height: 1px; background: rgba(0,0,0,0.08); position: absolute; left: 30px; right: 30px; top: 0; }
 .s2 .social-links li:first-child:before { display: none; }
 .s2 .social-links .social-tooltip { display: block; font-size: 22px; border-radius: 10px; padding: 22px 10px; margin: 0 20px; color: rgba(0,0,0,0.7); }
-.s2 .social-links .social-tooltip:hover { background: rgba(255,255,255,0.05); color: rgba(0,0,0,0.85); text-decoration: none; }
+.s2 .social-links .social-tooltip:hover { color: rgba(0,0,0,0.85); text-decoration: none; }
 .s2 .social-links .social-tooltip:active {  }
 .s2 .social-links .social-tooltip:hover:after { background: #333; color: #fff; padding: 7px 10px; top: 14px; left: 50px; right: auto; }
 .s2 .social-links .social-tooltip:hover:before { top: 24px; left: 45px; right: auto; border-color: transparent #333; border-width: 5px 5px 5px 0; }
@@ -685,7 +685,6 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 }
 
 #profile { background: linear-gradient(90deg, #c14bff 0%, #6c5dd3 100%); position: relative; border-radius: 20px; overflow: hidden; margin: 30px 30px 0; text-align: center; transition: all 0.2s ease; }
-#profile:after { content: ""; display: block; position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 1px solid hsla(0,0%,100%,.3); transition: color .2s,background-color .2s,border-color .2s; pointer-events: none; z-index: 1; }
 #profile a { color: #fff; }
 #profile a:hover { color: rgba(255,255,255,0.75); }
 #profile-inner { position: relative; }
