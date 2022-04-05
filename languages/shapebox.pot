@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Shapebox\n"
-"POT-Creation-Date: 2022-04-04 15:34+0200\n"
+"POT-Creation-Date: 2022-04-05 14:20+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -127,19 +127,19 @@ msgstr ""
 msgid "Footer 4"
 msgstr ""
 
-#: functions.php:685
+#: functions.php:687
 msgid "Alx Extensions"
 msgstr ""
 
-#: functions.php:689
+#: functions.php:691
 msgid "Meta Box"
 msgstr ""
 
-#: functions.php:693
+#: functions.php:695
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: functions.php:697
+#: functions.php:699
 msgid "WP-PageNavi"
 msgstr ""
 
@@ -776,22 +776,30 @@ msgid "Use dark instead of light base"
 msgstr ""
 
 #: functions/theme-options.php:718
+msgid "Light/Dark Theme Toggle"
+msgstr ""
+
+#: functions/theme-options.php:719
+msgid "Do not use with dark theme enabled"
+msgstr ""
+
+#: functions/theme-options.php:727
 msgid "Primary Color"
 msgstr ""
 
-#: functions/theme-options.php:726
+#: functions/theme-options.php:735
 msgid "Gradient Left"
 msgstr ""
 
-#: functions/theme-options.php:734
+#: functions/theme-options.php:743
 msgid "Gradient Right"
 msgstr ""
 
-#: functions/theme-options.php:742
+#: functions/theme-options.php:751
 msgid "Background Color"
 msgstr ""
 
-#: header.php:19
+#: header.php:26
 msgid "Skip to content"
 msgstr ""
 

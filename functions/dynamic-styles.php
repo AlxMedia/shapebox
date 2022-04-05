@@ -150,6 +150,8 @@ if ( ! function_exists( 'shapebox_dynamic_css' ) ) {
 .widget_calendar caption,
 .alx-tabs-nav li.active a { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
 
+#theme-toggle i { background-image: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
+
 @media only screen and (max-width: 720px) {
 	.site-title:after { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
 }
@@ -173,6 +175,8 @@ if ( ! function_exists( 'shapebox_dynamic_css' ) ) {
 .blog-single-author a,
 .widget_calendar caption,
 .alx-tabs-nav li.active a { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
+
+#theme-toggle i { background-image: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
 
 @media only screen and (max-width: 720px) {
 	.site-title:after { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }

@@ -205,6 +205,7 @@ if ( ! function_exists( 'shapebox_scripts' ) ) {
 		wp_enqueue_script( 'shapebox-slick', get_template_directory_uri() . '/js/slick.min.js', array( 'jquery' ),'', false );
 		wp_enqueue_script( 'shapebox-fitvids', get_template_directory_uri() . '/js/jquery.fitvids.js', array( 'jquery' ),'', true );
 		wp_enqueue_script( 'shapebox-jq-sticky-anything', get_template_directory_uri() . '/js/jq-sticky-anything.min.js', array( 'jquery' ),'', true );
+		if ( get_theme_mod( 'theme-toggle','off' ) == 'on' ) { wp_enqueue_script( 'shapebox-theme-toggle', get_template_directory_uri() . '/js/theme-toggle.js', array( 'jquery' ),'', true ); }
 		wp_enqueue_script( 'shapebox-scripts', get_template_directory_uri() . '/js/scripts.js', array( 'jquery' ),'', true );
 		if ( is_singular() && get_option( 'thread_comments' ) )	{ wp_enqueue_script( 'comment-reply' ); }
 	}  
@@ -220,7 +221,7 @@ if ( ! function_exists( 'shapebox_styles' ) ) {
 	function shapebox_styles() {
 		wp_enqueue_style( 'shapebox-style', get_stylesheet_uri() );
 		wp_enqueue_style( 'shapebox-responsive', get_template_directory_uri().'/responsive.css' );
-		if ( get_theme_mod('dark-theme','off') == 'on' ) { wp_enqueue_style( 'shapebox-dark', get_template_directory_uri().'/dark.css' ); }
+		if ( ( get_theme_mod( 'dark-theme','off' ) == 'on' ) || ( get_theme_mod( 'theme-toggle','off' ) == 'on' ) ) { wp_enqueue_style( 'shapebox-dark', get_template_directory_uri().'/dark.css' ); }
 		wp_enqueue_style( 'shapebox-font-awesome', get_template_directory_uri().'/fonts/all.min.css' );
 	}
 	
@@ -539,6 +540,7 @@ if ( ! function_exists( 'shapebox_body_class' ) ) {
 		if ( get_theme_mod( 'boxed','off' ) == 'on' ) { $classes[] = 'boxed'; }
 		if ( has_nav_menu( 'mobile' ) ) { $classes[] = 'mobile-menu'; }
 		if ( get_theme_mod( 'mobile-sidebar-hide','on' ) != 'on' ) { $classes[] = 'mobile-sidebar-hide'; }
+		if ( get_theme_mod( 'dark-theme' ,'off' ) == 'on' ) { $classes[] = 'dark'; }
 		if (! ( is_user_logged_in() ) ) { $classes[] = 'logged-out'; }
 		return $classes;
 	}

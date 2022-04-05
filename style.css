@@ -673,6 +673,16 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .s2 .social-links .social-tooltip:hover:after { background: #333; color: #fff; padding: 7px 10px; top: 14px; left: 50px; right: auto; }
 .s2 .social-links .social-tooltip:hover:before { top: 24px; left: 45px; right: auto; border-color: transparent #333; border-width: 5px 5px 5px 0; }
 
+#theme-toggle { border-radius: 30px; margin: 20px 20px 0; padding: 10px 8px; position: relative; }
+#theme-toggle-ball { width: 30px; height: 30px; border-radius: 100%; position: absolute; left: 5px; }
+#theme-toggle a { display: block; }
+#theme-toggle i { color: #fff; font-size: 24px; display: block; margin: 0 auto; -webkit-background-clip: text; background-clip: text; background-image: linear-gradient(90deg, #c14bff 0%, #6c5dd3 100%); -webkit-box-decoration-break: clone; box-decoration-break: clone; color: transparent; }
+#theme-toggle i.fa-moon { margin-top: 10px; }
+body.light #theme-toggle { background: #333; }
+body.light #theme-toggle-ball { background: #fff; top: 5px; }
+body.dark #theme-toggle { background: #fff; }
+body.dark #theme-toggle-ball { background: #141416; bottom: 5px; }
+
 .site-title { font-size: 30px; font-weight: 800; letter-spacing: -0.5px; float: left; line-height: 60px; padding: 10px 0 10px 0; position: relative; z-index: 2; }
 .site-title a { display: block; color: #333; max-width: 100%; }
 .site-title a img { display: block; max-width: 100%; max-height: 60px; height: auto; padding: 0; margin: 0 auto; -webkit-border-radius: 0; border-radius: 0; }

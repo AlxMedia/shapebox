@@ -87,7 +87,8 @@ Sidebar images
 
 == Changelog ==
 
-= 1.0.5 - 2022-04-04 =
+= 1.0.5 - 2022-04-05 =
+* Added light/dark theme toggle to styling options
 * Added dark theme styling option
 * Fixed position of the play icon for featured video posts
 

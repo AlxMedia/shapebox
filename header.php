@@ -14,6 +14,13 @@
 
 <body <?php body_class(); ?>>
 
+<?php if ( get_theme_mod( 'theme-toggle', 'off' ) == 'on' ): ?>
+	<script>
+		const theme = localStorage.getItem('theme') || 'light';
+		document.body.classList.add(theme);
+	</script>
+<?php endif; ?>
+
 <?php if ( function_exists( 'wp_body_open' ) ) { wp_body_open(); } ?>
 
 <a class="skip-link screen-reader-text" href="#page"><?php _e( 'Skip to content', 'shapebox' ); ?></a>
@@ -60,6 +67,15 @@
 				</div>
 			</div>
 		<?php endif; ?>
+		
+		<?php if ( get_theme_mod( 'theme-toggle', 'off' ) == 'on' ): ?>
+			<div id="theme-toggle" class="group">
+				<a id="light" href="#"> <i class='fas fa-sun'></i></a>
+				<a id="dark" href="#"><i class="fas fa-moon"></i></a>
+				<div id="theme-toggle-ball"></div>
+			</div>
+		<?php endif; ?>
+		
 		<?php if ( get_theme_mod( 'header-social', 'on' ) == 'on' ): ?>
 			<?php shapebox_social_links() ; ?>
 		<?php endif; ?>
