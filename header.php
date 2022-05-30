@@ -70,7 +70,7 @@
 		
 		<?php if ( get_theme_mod( 'theme-toggle', 'off' ) == 'on' ): ?>
 			<div id="theme-toggle" class="group">
-				<a id="light" href="#"> <i class='fas fa-sun'></i></a>
+				<a id="light" href="#"><i class="fas fa-sun"></i></a>
 				<a id="dark" href="#"><i class="fas fa-moon"></i></a>
 				<div id="theme-toggle-ball"></div>
 			</div>
