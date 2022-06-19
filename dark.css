@@ -292,3 +292,6 @@ body:where(.dark) .nav-menu.mobile > div > ul { border-top: 1px solid rgba(255,2
 	body:where(.dark) .toggle-search:focus #svg-search,
 	body:where(.dark) .toggle-search:focus #svg-close { fill: rgba(255,255,255,0.6); }
 }
+
+body:where(.dark) .site-title a img,
+body:where(.dark) .site-title a svg { filter: invert(1); }

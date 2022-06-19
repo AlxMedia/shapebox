@@ -87,6 +87,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.7 - 2022-06-19 =
+* Fixed inverted logo img and svg colors for dark mode
+
 = 1.0.6 - 2022-05-30 =
 * Fixed ol and ul box-sizing content-box styling for WP 6.0
 * Updated to Kirki 4.0.24
