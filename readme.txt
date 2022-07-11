@@ -87,6 +87,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.8 - 2022-07-11 =
+* Fixed theme toggle button position when no social links are used
+
 = 1.0.7 - 2022-06-19 =
 * Fixed inverted logo img and svg colors for dark mode
 
