@@ -87,6 +87,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.9 - 2022-08-18 =
+* Fixed so that thumbnails are clickable
+
 = 1.0.8 - 2022-07-11 =
 * Fixed theme toggle button position when no social links are used
 

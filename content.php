@@ -4,7 +4,7 @@
 
 		<div class="blog-card group">
 			
-			<div class="blog-card-inner" style="background-image:url('<?php the_post_thumbnail_url('shapebox-medium'); ?>');">
+			<a href="<?php the_permalink(); ?>" class="blog-card-inner" style="background-image:url('<?php the_post_thumbnail_url('shapebox-medium'); ?>');">
 			
 				<?php if ( has_post_format('video') && !is_sticky() ) echo'<span class="thumb-icon small"><i class="fas fa-play"></i></span>'; ?>
 				<?php if ( has_post_format('audio') && !is_sticky() ) echo'<span class="thumb-icon small"><i class="fas fa-volume-up"></i></span>'; ?>
@@ -14,7 +14,7 @@
 					<a class="blog-card-comments" href="<?php comments_link(); ?>"><i class="fas fa-comment"></i><span><?php comments_number( '0', '1', '%' ); ?></span></a>
 				<?php endif; ?>
 				
-			</div>
+			</a>
 			
 			<div class="blog-card-bottom-outer">
 				<div class="blog-card-bottom">
