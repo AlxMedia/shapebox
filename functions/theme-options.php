@@ -720,6 +720,15 @@ Kirki::add_field( 'shapebox_theme', array(
 	'section'		=> 'styling',
 	'default'		=> 'off',
 ) );
+// Styling: Invert Dark Logo
+Kirki::add_field( 'shapebox_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'invert-logo',
+	'label'			=> esc_html__( 'Invert Dark Logo Color', 'shapebox' ),
+	'description'	=> esc_html__( 'Change color for the logo in dark mode', 'shapebox' ),
+	'section'		=> 'styling',
+	'default'		=> 'on',
+) );
 // Styling: Primary Color
 Kirki::add_field( 'shapebox_theme', array(
 	'type'			=> 'color',

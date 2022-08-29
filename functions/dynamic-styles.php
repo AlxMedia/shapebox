@@ -148,7 +148,8 @@ if ( ! function_exists( 'shapebox_dynamic_css' ) ) {
 .blog-card-author a,
 .blog-single-author a,
 .widget_calendar caption,
-.alx-tabs-nav li.active a { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
+.alx-tabs-nav li.active a,
+#theme-toggle-btn:before { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
 
 #theme-toggle i { background-image: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
 
@@ -174,7 +175,8 @@ if ( ! function_exists( 'shapebox_dynamic_css' ) ) {
 .blog-card-author a,
 .blog-single-author a,
 .widget_calendar caption,
-.alx-tabs-nav li.active a { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
+.alx-tabs-nav li.active a,
+#theme-toggle-btn:before { background: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
 
 #theme-toggle i { background-image: linear-gradient(90deg, '.esc_attr( get_theme_mod('gradient-left') ).' 0%, '.esc_attr( get_theme_mod('gradient-right') ).' 100%); }
 

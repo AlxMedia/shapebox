@@ -104,12 +104,10 @@
 	
 	#nav-header.nav-container { margin-top: 0; }
 	
-	#theme-toggle { padding: 7px; width: 50px; height: 20px; position: absolute; left: 60px; top: -40px; bottom: auto; z-index: 9; margin: 0; }
-	#theme-toggle i { font-size: 20px; float: left; }
-	#theme-toggle i.fa-moon { margin-top: 0; margin-left: 10px; }
-	#theme-toggle-ball {  }
-	body.light #theme-toggle-ball { top: 2px; left: 2px; }
-	body.dark #theme-toggle-ball { top: 2px; right: 2px; left: auto; bottom: auto; }
+	#theme-toggle { position: absolute; top: -39px; left: 70px; margin: 0; }
+	#theme-toggle i { float: left; margin: 4px 0 0; }
+	#theme-toggle-btn { width: 64px; height: 32px; margin-left: 32px; }
+	body.dark #theme-toggle-btn:before { top: 2px; left: 34px; margin: 0; }
 	
 	.s2 { box-shadow: none; position: relative; width: 100%; text-align: center; top: 0!important; }
 	.s2 .social-links li:before { display: none; }

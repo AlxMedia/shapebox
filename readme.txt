@@ -87,6 +87,11 @@ Sidebar images
 
 == Changelog ==
 
+= 1.1.0 - 2022-08-29 =
+* Improved the dark mode toggle
+* Added option to disable inverted color for dark mode logo
+* Updated language files
+
 = 1.0.9 - 2022-08-18 =
 * Fixed so that thumbnails are clickable
 

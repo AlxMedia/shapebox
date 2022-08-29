@@ -16,8 +16,7 @@
 
 <?php if ( get_theme_mod( 'theme-toggle', 'off' ) == 'on' ): ?>
 	<script>
-		const theme = localStorage.getItem('theme') || 'light';
-		document.body.classList.add(theme);
+		document.body.classList.add(localStorage.getItem('theme') || 'light');
 	</script>
 <?php endif; ?>
 
@@ -69,11 +68,11 @@
 		<?php endif; ?>
 		
 		<?php if ( get_theme_mod( 'theme-toggle', 'off' ) == 'on' ): ?>
-			<div id="theme-toggle" class="group">
-				<a id="light" href="#"><i class="fas fa-sun"></i></a>
-				<a id="dark" href="#"><i class="fas fa-moon"></i></a>
-				<div id="theme-toggle-ball"></div>
-			</div>
+			<button id="theme-toggle">
+				<i class="fas fa-sun"></i>
+				<i class="fas fa-moon"></i>
+				<span id="theme-toggle-btn"></span>
+			</button>
 		<?php endif; ?>
 		
 		<?php if ( get_theme_mod( 'header-social', 'on' ) == 'on' ): ?>
