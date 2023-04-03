@@ -250,16 +250,16 @@ body:where(.dark) .nav-menu.mobile button:focus,
 body:where(.dark) .menu-toggle:focus { background: rgba(255,255,255,0.04); }
 body:where(.dark) .nav-menu a { color: #fff; }
 body:where(.dark) .nav-menu .svg-icon { fill: #fff; }
-body:where(.dark) .nav-menu:not(.mobile) .menu ul { background: #fff; color: #fff; }
+body:where(.dark) .nav-menu:not(.mobile) .menu ul { background: rgba(255,255,255,0.04); color: #fff; }
 body:where(.dark) .nav-menu:not(.mobile) .menu ul:after { border-bottom-color: #fff; }
 body:where(.dark) .nav-menu:not(.mobile) .menu ul ul:after { border-right-color: #fff; }
 body:where(.dark) .nav-menu-dropdown-left .nav-menu:not(.mobile) .menu ul ul:after { border-left-color: #fff; border-bottom-color: transparent; }
 
 body:where(.dark) .nav-menu:not(.mobile) a { color: rgba(255,255,255,0.6); }
 body:where(.dark) .nav-menu:not(.mobile) a:hover { color: #fff; }
-body:where(.dark) .nav-menu:not(.mobile) ul ul a:hover { color: #555; }
+body:where(.dark) .nav-menu:not(.mobile) ul ul a:hover { color: #fff; }
 body:where(.dark) .nav-menu:not(.mobile) ul ul > li:hover > span { background: rgba(255,255,255,0.1); }
-body:where(.dark) .nav-menu:not(.mobile) ul ul a { color: #333; }
+body:where(.dark) .nav-menu:not(.mobile) ul ul a { color: #fff; }
 body:where(.dark) .nav-menu:not(.mobile) button { color: #666; }
 body:where(.dark) .nav-menu:not(.mobile) button.active { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.5); }
 body:where(.dark) .nav-menu:not(.mobile) button .svg-icon { fill: rgba(255,255,255,0.3); }
