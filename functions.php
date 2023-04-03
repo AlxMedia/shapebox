@@ -733,3 +733,9 @@ function shapebox_skip_link_focus_fix() {
 	<?php
 }
 add_action( 'wp_print_footer_scripts', 'shapebox_skip_link_focus_fix' );
+
+function shapebox_register_strings() {
+    pll_register_string( 'copyright', get_theme_mod( 'copyright' ), 'shapebox' );
+	pll_register_string( 'profile_description', get_theme_mod( 'profile-description' ), 'shapebox' );
+}
+add_action( 'admin_init', 'shapebox_register_strings' );

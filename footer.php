@@ -60,7 +60,7 @@
 					
 					<div id="copyright">
 						<?php if ( get_theme_mod( 'copyright' ) ): ?>
-							<p><?php echo esc_html( get_theme_mod( 'copyright' ) ); ?></p>
+							<p><?php echo esc_html( pll_e( get_theme_mod( 'copyright' ) ) ); ?></p>
 						<?php else: ?>
 							<p><?php bloginfo(); ?> &copy; <?php echo esc_html( date_i18n( esc_html__( 'Y', 'shapebox' ) ) ); ?>. <?php esc_html_e( 'All Rights Reserved.', 'shapebox' ); ?></p>
 						<?php endif; ?>
