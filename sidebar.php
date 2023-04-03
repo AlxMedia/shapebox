@@ -12,7 +12,7 @@
 				<div id="profile" class="group">
 					<div id="profile-inner">
 						<?php if ( get_theme_mod('profile-image') ): ?>
-							<div id="profile-image"><img src="<?php echo esc_html( get_theme_mod('profile-image') ); ?>" alt="" /></div>
+							<div id="profile-image"><a href="<?php echo esc_url( home_url() ); ?>"><img src="<?php echo esc_html( get_theme_mod('profile-image') ); ?>" alt="" /></a></div>
 						<?php endif; ?>
 						<?php if ( get_theme_mod('profile-name') ): ?>
 							<div id="profile-name"><?php echo esc_html( get_theme_mod('profile-name') ); ?></div>
