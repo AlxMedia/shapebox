@@ -54,6 +54,7 @@ if ( ! function_exists( 'shapebox_enqueue_google_fonts' ) ) {
 			if ( get_theme_mod( 'font' ) == 'open-sans-cyr' ) { wp_enqueue_style( 'open-sans-cyr', '//fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300,600&subset=latin,cyrillic-ext' ); }
 			if ( get_theme_mod( 'font' ) == 'pt-serif' ) { wp_enqueue_style( 'pt-serif', '//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic&subset=latin,latin-ext' ); }
 			if ( get_theme_mod( 'font' ) == 'pt-serif-cyr' ) { wp_enqueue_style( 'pt-serif-cyr', '//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic&subset=latin,cyrillic-ext' ); }
+			if ( get_theme_mod( 'font' ) == 'oswald' ) { wp_enqueue_style( 'oswald', '//fonts.googleapis.com/css2?family=Oswald:wght@200;300;500;600;700&display=swap' ); }
 		}
 	}	
 	
@@ -93,6 +94,7 @@ if ( ! function_exists( 'shapebox_dynamic_css' ) ) {
 			if ( get_theme_mod( 'font' ) == 'georgia' ) { $styles .= 'body { font-family: Georgia, serif; }'."\n"; }
 			if ( get_theme_mod( 'font' ) == 'verdana' ) { $styles .= 'body { font-family: Verdana, sans-serif; }'."\n"; }
 			if ( get_theme_mod( 'font' ) == 'tahoma' ) { $styles .= 'body { font-family: Tahoma, sans-serif; }'."\n"; }
+			if ( get_theme_mod( 'font' ) == 'oswald' ) { $styles .= 'body { font-family: "Oswald", sans-serif; }'."\n"; }
 			
 			// container width
 			if ( get_theme_mod('container-width','1280') != '1280' ) {			

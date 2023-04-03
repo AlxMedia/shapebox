@@ -658,6 +658,7 @@ Kirki::add_field( 'shapebox_theme', array(
 		'georgia'				=> esc_html__( 'Georgia', 'shapebox' ),
 		'verdana'				=> esc_html__( 'Verdana', 'shapebox' ),
 		'tahoma'				=> esc_html__( 'Tahoma', 'shapebox' ),
+		'oswald'				=> esc_html__( 'oswald', 'shapebox' ),
 	),
 ) );
 // Styling: Container Width
