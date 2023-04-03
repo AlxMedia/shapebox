@@ -1,0 +1,830 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: halilnevzat.com\n"
+"Project-Id-Version: folias\n"
+"Language: tr\n"
+
+#: comments.php:7
+msgid "No Responses"
+msgstr "Yanıt Yok"
+
+#: comments.php:7
+msgid "1 Response"
+msgstr "1 Yanıt"
+
+#: comments.php:7
+msgid "% Responses"
+msgstr "Yanıtlar %"
+
+#: comments.php:10
+msgid "Comments"
+msgstr "Yorumlar"
+
+#: comments.php:11
+msgid "Pingbacks"
+msgstr "Pingbackler"
+
+#: footer.php:60
+msgid "Y"
+msgstr "Y"
+
+#: footer.php:60
+msgid "All Rights Reserved."
+msgstr "Tüm hakları saklıdır."
+
+#: footer.php:66
+msgid "Powered by"
+msgstr "Tarafından desteklenmektedir"
+
+#: footer.php:66
+msgid "Theme by"
+msgstr "Tema tarafından"
+
+#: functions.php:87
+msgid "Mobile"
+msgstr "Mobil"
+
+#: functions.php:88 functions/theme-options.php:52
+msgid "Header"
+msgstr "Başlık"
+
+#: functions.php:182
+msgid "Primary"
+msgstr "Birincil"
+
+#: functions.php:182
+msgid "Normal full width sidebar"
+msgstr "Normal tam genişlikte kenar çubuğu"
+
+#: functions.php:184 functions/theme-options.php:317
+msgid "Footer Ads"
+msgstr "Altbilgi Reklamları"
+
+#: functions.php:184
+msgid "Footer ads area"
+msgstr "Altbilgi reklam alanı"
+
+#: functions.php:186
+msgid "Frontpage Top 1"
+msgstr "Ön Sayfa İlk 1"
+
+#: functions.php:186 functions.php:187 functions.php:188 functions.php:189
+msgid "Frontpage area"
+msgstr "Ön sayfa alanı"
+
+#: functions.php:187
+msgid "Frontpage Top 2"
+msgstr "Ön Sayfa İlk 2"
+
+#: functions.php:188
+msgid "Frontpage Bottom 1"
+msgstr "Ön Sayfa Alt 1"
+
+#: functions.php:189
+msgid "Frontpage Bottom 2"
+msgstr "Ön Sayfa Alt 2"
+
+#: functions.php:191
+msgid "Footer 1"
+msgstr "Altbilgi 1"
+
+#: functions.php:191 functions.php:192 functions.php:193 functions.php:194
+msgid "Widgetized footer"
+msgstr "Widget'laştırılmış altbilgi"
+
+#: functions.php:192
+msgid "Footer 2"
+msgstr "Altbilgi 2"
+
+#: functions.php:193
+msgid "Footer 3"
+msgstr "Altbilgi 3"
+
+#: functions.php:194
+msgid "Footer 4"
+msgstr "Altbilgi 4"
+
+#: functions.php:686
+msgid "Alx Extensions"
+msgstr "Alx Uzantıları"
+
+#: functions.php:690
+msgid "Meta Box"
+msgstr "Meta Kutu"
+
+#: functions.php:694
+msgid "Regenerate Thumbnails"
+msgstr "Küçük Resimleri Yeniden Oluştur"
+
+#: functions.php:698
+msgid "WP-PageNavi"
+msgstr "WP-PageNavi"
+
+#: functions/meta-boxes.php:21
+msgid "Page Options"
+msgstr "Sayfa Seçenekleri"
+
+#: functions/meta-boxes.php:29 functions/meta-boxes.php:62
+msgid "Primary Sidebar"
+msgstr "Birincil Kenar Çubuğu"
+
+#: functions/meta-boxes.php:31 functions/meta-boxes.php:64
+#: functions/theme-options.php:508 functions/theme-options.php:518
+#: functions/theme-options.php:528 functions/theme-options.php:538
+#: functions/theme-options.php:548 functions/theme-options.php:558
+#: functions/theme-options.php:568
+msgid "Select a sidebar"
+msgstr "Bir kenar çubuğu seçin"
+
+#: functions/meta-boxes.php:37 functions/meta-boxes.php:70
+#: functions/theme-options.php:62
+msgid "Layout"
+msgstr "Düzen"
+
+#: functions/meta-boxes.php:54
+msgid "Post Options"
+msgstr "Gönderi Seçenekleri"
+
+#: functions/nav.php:170
+msgid "Expand Menu"
+msgstr "Menüyü Genişlet"
+
+#: functions/nav.php:212
+msgid "Toggle Child Menu"
+msgstr "Çocuk Menüsünü Aç / Kapat"
+
+#: functions/nav.php:286 functions/nav.php:300
+msgid "<span class=\"screen-reader-text\">%1$s </span>%2$s"
+msgstr "<span class=\"screen-reader-text\">%1$s </span>%2$s"
+
+#: functions/nav.php:287
+msgid "Current Page:"
+msgstr "Güncel Sayfa:"
+
+#: functions/nav.php:301
+msgid "Current Page Parent"
+msgstr "Geçerli Sayfa Ebeveyn"
+
+#: functions/theme-options.php:16
+msgid "AlxMedia"
+msgstr "AlxMedia"
+
+#: functions/theme-options.php:18
+msgid "View More Themes"
+msgstr "Daha Fazla Tema Görüntüle"
+
+#: functions/theme-options.php:23
+msgid "Like This Theme?"
+msgstr "Bu Temayı Beğendiniz mi?"
+
+#: functions/theme-options.php:26
+msgid "Write a Review"
+msgstr "Bir İnceleme Yazın"
+
+#: functions/theme-options.php:35
+msgid "Theme Options"
+msgstr "Tema Seçenekleri"
+
+#: functions/theme-options.php:42
+msgid "General"
+msgstr "Genel"
+
+#: functions/theme-options.php:47
+msgid "Blog"
+msgstr "Blog"
+
+#: functions/theme-options.php:57
+msgid "Footer"
+msgstr "Altbilgi"
+
+#: functions/theme-options.php:67
+msgid "Sidebars"
+msgstr "Kenar Çubukları"
+
+#: functions/theme-options.php:72
+msgid "Social Links"
+msgstr "Sosyal Bağlantılar"
+
+#: functions/theme-options.php:77
+msgid "Styling"
+msgstr "Şekillendirme"
+
+#: functions/theme-options.php:88
+msgid "Mobile Sidebar Content"
+msgstr "Mobil Kenar Çubuğu İçeriği"
+
+#: functions/theme-options.php:89
+msgid "Sidebar content on low-resolution mobile devices (320px)"
+msgstr "Düşük çözünürlüklü mobil cihazlarda kenar çubuğu içeriği (320 piksel)"
+
+#: functions/theme-options.php:97
+msgid "Recommended Plugins"
+msgstr "Önerilen Eklentiler"
+
+#: functions/theme-options.php:98
+msgid "Enable or disable the recommended plugins notice"
+msgstr "Önerilen eklenti bildirimini etkinleştirin veya devre dışı bırakın"
+
+#: functions/theme-options.php:106
+msgid "Enable Blog Heading"
+msgstr "Blog Başlığını Etkinleştir"
+
+#: functions/theme-options.php:107
+msgid "Show heading on blog home"
+msgstr "Blog ana sayfasında başlığı göster"
+
+#: functions/theme-options.php:115
+msgid "Heading"
+msgstr "Başlık"
+
+#: functions/theme-options.php:116
+msgid "Your blog heading"
+msgstr "Blog başlığınız"
+
+#: functions/theme-options.php:124
+msgid "Subheading"
+msgstr "Alt başlık"
+
+#: functions/theme-options.php:125
+msgid "Your blog subheading"
+msgstr "Blog alt başlığınız"
+
+#: functions/theme-options.php:133
+msgid "Enable Excerpts"
+msgstr "Alıntıları Etkinleştir"
+
+#: functions/theme-options.php:134
+msgid "Show excerpts on blog items"
+msgstr "Blog öğelerinde alıntıları göster"
+
+#: functions/theme-options.php:142
+msgid "Excerpt Length"
+msgstr "Alıntı Uzunluğu"
+
+#: functions/theme-options.php:143
+msgid "Max number of words. Set it to 0 to disable."
+msgstr "Maksimum kelime sayısı. Devre dışı bırakmak için 0 olarak ayarlayın."
+
+#: functions/theme-options.php:156
+msgid "Exclude Featured Posts"
+msgstr "Öne Çıkan Gönderileri Hariç Tut"
+
+#: functions/theme-options.php:157
+msgid "Exclude featured posts from the content below"
+msgstr "Öne çıkan gönderileri aşağıdaki içerikten hariç tutun"
+
+#: functions/theme-options.php:165
+msgid "Featured Category"
+msgstr "Öne Çıkan Kategori"
+
+#: functions/theme-options.php:166
+msgid "By not selecting a category, it will show your latest post(s) from all categories"
+msgstr "Bir kategori seçmediğinizde, tüm kategorilerdeki en son gönderilerinizi gösterecektir"
+
+#: functions/theme-options.php:170
+msgid "Select a category"
+msgstr "Bir kategori seçin"
+
+#: functions/theme-options.php:176
+msgid "Featured Post Count"
+msgstr "Öne Çıkan Gönderi Sayısı"
+
+#: functions/theme-options.php:177
+msgid "Max number of featured posts to display. Set it to 0 to disable"
+msgstr "Gösterilecek öne çıkan gönderilerin maksimum sayısı. Devre dışı bırakmak için 0 olarak ayarlayın"
+
+#: functions/theme-options.php:190
+msgid "Frontpage Widgets Top"
+msgstr "Ön Sayfa Widget'ları Üst"
+
+#: functions/theme-options.php:191 functions/theme-options.php:200
+msgid "2 columns of widgets"
+msgstr "2 sütun widget"
+
+#: functions/theme-options.php:199
+msgid "Frontpage Widgets Bottom"
+msgstr "Ön Sayfa Widget'ları Alt"
+
+#: functions/theme-options.php:208
+msgid "Hover Date"
+msgstr "Hover Tarihi"
+
+#: functions/theme-options.php:209
+msgid "Show date on hover on each item"
+msgstr "Her öğenin üzerine gelindiğinde tarihi göster"
+
+#: functions/theme-options.php:217
+msgid "Comment Count"
+msgstr "Yorum Sayısı"
+
+#: functions/theme-options.php:218
+msgid "Comment count with bubbles"
+msgstr "Baloncuklarla yorum sayısı"
+
+#: functions/theme-options.php:226
+msgid "Single - Post Format"
+msgstr "Tekli - Gönderi Formatı"
+
+#: functions/theme-options.php:227
+msgid "Shows post format content instead of featured image"
+msgstr "Öne çıkan görsel yerine gönderi biçimi içeriğini gösterir"
+
+#: functions/theme-options.php:235
+msgid "Single - Author Bio"
+msgstr "Single - Yazar Biyografisi"
+
+#: functions/theme-options.php:236
+msgid "Shows post author description, if it exists"
+msgstr "Varsa, gönderi yazarının açıklamasını gösterir"
+
+#: functions/theme-options.php:244
+msgid "Single - Related Posts"
+msgstr "Single - İlgili Yazılar"
+
+#: functions/theme-options.php:245
+msgid "Shows randomized related articles below the post"
+msgstr "Yazının altında rastgele ilgili makaleleri gösterir"
+
+#: functions/theme-options.php:249 functions/theme-options.php:263
+msgid "Disable"
+msgstr "Devre dışı bırak"
+
+#: functions/theme-options.php:250
+msgid "Related by categories"
+msgstr "Kategorilere göre ilgili"
+
+#: functions/theme-options.php:251
+msgid "Related by tags"
+msgstr "İlgili etiketler"
+
+#: functions/theme-options.php:258
+msgid "Single - Post Navigation"
+msgstr "Tek - Navigasyon Sonrası"
+
+#: functions/theme-options.php:259
+msgid "Shows links to the next and previous article"
+msgstr "Bir sonraki ve bir önceki makalenin bağlantılarını gösterir"
+
+#: functions/theme-options.php:264
+msgid "Sidebar"
+msgstr "yan çubuk"
+
+#: functions/theme-options.php:265
+msgid "Below content"
+msgstr "Aşağıdaki içerik"
+
+#: functions/theme-options.php:272
+msgid "Header Search"
+msgstr "Başlık Arama"
+
+#: functions/theme-options.php:273
+msgid "Header search button"
+msgstr "Üstbilgi arama düğmesi"
+
+#: functions/theme-options.php:281
+msgid "Header Social Links"
+msgstr "Başlık Sosyal Bağlantıları"
+
+#: functions/theme-options.php:282 functions/theme-options.php:343
+msgid "Social link icon buttons"
+msgstr "Sosyal bağlantı simge düğmeleri"
+
+#: functions/theme-options.php:290
+msgid "Profile Image"
+msgstr "Profil Görüntüsü"
+
+#: functions/theme-options.php:291
+msgid "Minimum width of 320px"
+msgstr "Minimum 320 piksel genişlik"
+
+#: functions/theme-options.php:299
+msgid "Profile Name"
+msgstr "Profil Adı"
+
+#: functions/theme-options.php:300
+msgid "Your name appears below the image"
+msgstr "Adınız resmin altında görünür"
+
+#: functions/theme-options.php:308
+msgid "Profile Description"
+msgstr "Profil Açıklaması"
+
+#: functions/theme-options.php:309
+msgid "A short description of you"
+msgstr "Hakkınızda kısa bir açıklama"
+
+#: functions/theme-options.php:318
+msgid "Footer widget ads area"
+msgstr "Altbilgi widget reklam alanı"
+
+#: functions/theme-options.php:326
+msgid "Footer Widget Columns"
+msgstr "Altbilgi Widget Sütunları"
+
+#: functions/theme-options.php:327
+msgid "Select columns to enable footer widgets. Recommended number: 3"
+msgstr "Altbilgi widget'larını etkinleştirmek için sütunları seçin. Önerilen sayı: 3"
+
+#: functions/theme-options.php:342
+msgid "Footer Social Links"
+msgstr "Altbilgi Sosyal Bağlantılar"
+
+#: functions/theme-options.php:351
+msgid "Footer Logo"
+msgstr "Altbilgi Logosu"
+
+#: functions/theme-options.php:352
+msgid "Upload your custom logo image"
+msgstr "Özel logo görselinizi yükleyin"
+
+#: functions/theme-options.php:360
+msgid "Footer Copyright"
+msgstr "Altbilgi Telif Hakkı"
+
+#: functions/theme-options.php:361
+msgid "Replace the footer copyright text"
+msgstr "Altbilgi telif hakkı metnini değiştirin"
+
+#: functions/theme-options.php:369
+msgid "Footer Credit"
+msgstr "Altbilgi Kredisi"
+
+#: functions/theme-options.php:370
+msgid "Footer credit text"
+msgstr "Altbilgi kredi metni"
+
+#: functions/theme-options.php:378
+msgid "Global Layout"
+msgstr "Küresel Düzen"
+
+#: functions/theme-options.php:379
+msgid "Other layouts will override this option if they are set"
+msgstr "Diğer düzenler ayarlanmışsa bu seçeneği geçersiz kılar"
+
+#: functions/theme-options.php:391 functions/theme-options.php:503
+msgid "Home"
+msgstr "Ev"
+
+#: functions/theme-options.php:392
+msgid "(is_home) Posts homepage layout"
+msgstr "(is_home) Gönderiler ana sayfa düzeni"
+
+#: functions/theme-options.php:405 functions/theme-options.php:513
+msgid "Single"
+msgstr "Tek kişilik"
+
+#: functions/theme-options.php:406
+msgid "(is_single) Single post layout - If a post has a set layout, it will override this."
+msgstr "(is_single) Tek gönderi düzeni - Bir gönderinin ayarlanmış bir düzeni varsa, bunu geçersiz kılar."
+
+#: functions/theme-options.php:419 functions/theme-options.php:523
+msgid "Archive"
+msgstr "Arşiv"
+
+#: functions/theme-options.php:420
+msgid "(is_archive) Category, date, tag and author archive layout"
+msgstr "(is_archive) Kategori, tarih, etiket ve yazar arşiv düzeni"
+
+#: functions/theme-options.php:433 functions/theme-options.php:533
+msgid "Archive - Category"
+msgstr "Arşiv - Kategori"
+
+#: functions/theme-options.php:434
+msgid "(is_category) Category archive layout"
+msgstr "(is_category) Kategori arşiv düzeni"
+
+#: functions/theme-options.php:447 functions/theme-options.php:543
+msgid "Search"
+msgstr "Arama"
+
+#: functions/theme-options.php:448
+msgid "(is_search) Search page layout"
+msgstr "(is_search) Arama sayfası düzeni"
+
+#: functions/theme-options.php:461 functions/theme-options.php:553
+msgid "Error 404"
+msgstr "Hata 404"
+
+#: functions/theme-options.php:462
+msgid "(is_404) Error 404 page layout"
+msgstr "(is_404) Hata 404 sayfa düzeni"
+
+#: functions/theme-options.php:475 functions/theme-options.php:563
+msgid "Default Page"
+msgstr "Varsayılan Sayfa"
+
+#: functions/theme-options.php:476
+msgid "(is_page) Default page layout - If a page has a set layout, it will override this."
+msgstr "(is_page) Varsayılan sayfa düzeni - Bir sayfanın belirlenmiş bir düzeni varsa, bunu geçersiz kılar."
+
+#: functions/theme-options.php:504
+msgid "(is_home) Primary"
+msgstr "(is_home) Birincil"
+
+#: functions/theme-options.php:514
+msgid "(is_single) Primary - If a single post has a unique sidebar, it will override this."
+msgstr "(is_single) Birincil - Tek bir gönderinin benzersiz bir kenar çubuğu varsa, bunu geçersiz kılar."
+
+#: functions/theme-options.php:524
+msgid "(is_archive) Primary"
+msgstr "(is_archive) Birincil"
+
+#: functions/theme-options.php:534
+msgid "(is_category) Primary"
+msgstr "(is_category) Birincil"
+
+#: functions/theme-options.php:544
+msgid "(is_search) Primary"
+msgstr "(is_search) Birincil"
+
+#: functions/theme-options.php:554
+msgid "(is_404) Primary"
+msgstr "(is_404) Birincil"
+
+#: functions/theme-options.php:564
+msgid "(is_page) Primary - If a page has a unique sidebar, it will override this."
+msgstr "(is_page) Birincil - Bir sayfanın benzersiz bir kenar çubuğu varsa, bunu geçersiz kılar."
+
+#: functions/theme-options.php:577
+msgid "Create Social Links"
+msgstr "Sosyal Bağlantılar Oluşturun"
+
+#: functions/theme-options.php:578
+msgid "Create and organize your social links"
+msgstr "Sosyal bağlantılarınızı oluşturun ve düzenleyin"
+
+#: functions/theme-options.php:580
+msgid "Font Awesome names:"
+msgstr "Font Awesome isimleri:"
+
+#: functions/theme-options.php:580 functions/theme-options.php:597
+msgid "View All"
+msgstr "Tümünü Görüntüle"
+
+#: functions/theme-options.php:583
+msgid "social link"
+msgstr "sosyal bağlantı"
+
+#: functions/theme-options.php:590
+msgid "Title"
+msgstr "Başlık"
+
+#: functions/theme-options.php:591
+msgid "Ex: Facebook"
+msgstr "Örn: Facebook"
+
+#: functions/theme-options.php:596
+msgid "Icon Name"
+msgstr "Simge Adı"
+
+#: functions/theme-options.php:597
+msgid "Font Awesome icons. Ex: fa-facebook "
+msgstr "Font Awesome simgeleri. Örn: fa-facebook"
+
+#: functions/theme-options.php:602
+msgid "Link"
+msgstr "Bağlantı"
+
+#: functions/theme-options.php:603
+msgid "Enter the full url for your icon button"
+msgstr "Simge düğmenizin tam URL'sini girin"
+
+#: functions/theme-options.php:608
+msgid "Icon Color"
+msgstr "Simge Rengi"
+
+#: functions/theme-options.php:609
+msgid "Set a unique color for your icon (optional)"
+msgstr "Simgeniz için benzersiz bir renk belirleyin (isteğe bağlı)"
+
+#: functions/theme-options.php:614
+msgid "Open in new window"
+msgstr "Yeni pencerede aç"
+
+#: functions/theme-options.php:623
+msgid "Dynamic Styles"
+msgstr "Dinamik Stiller"
+
+#: functions/theme-options.php:624
+msgid "Turn on to use the styling options below"
+msgstr "Aşağıdaki stil seçeneklerini kullanmak için açın"
+
+#: functions/theme-options.php:632
+msgid "Boxed Layout"
+msgstr "Kutulu Düzen"
+
+#: functions/theme-options.php:633
+msgid "Use a boxed layout"
+msgstr "Kutulu bir düzen kullanın"
+
+#: functions/theme-options.php:641
+msgid "Font"
+msgstr "Yazı Tipi"
+
+#: functions/theme-options.php:642
+msgid "Select font for the theme"
+msgstr "Tema için yazı tipi seçin"
+
+#: functions/theme-options.php:646
+msgid "Titillium Web, Latin (Self-hosted)"
+msgstr "Titillium Web, Latince (Kendi kendine barındırılan)"
+
+#: functions/theme-options.php:647
+msgid "Titillium Web, Latin-Ext"
+msgstr "Titillium Web, Latince-Ext"
+
+#: functions/theme-options.php:648
+msgid "Droid Serif, Latin"
+msgstr "Droid Serif, Latince"
+
+#: functions/theme-options.php:649
+msgid "Source Sans Pro, Latin-Ext"
+msgstr "Source Sans Pro, Latin-Ext"
+
+#: functions/theme-options.php:650
+msgid "Lato, Latin"
+msgstr "Lato, Latince"
+
+#: functions/theme-options.php:651
+msgid "Raleway, Latin"
+msgstr "Raleway, Latin"
+
+#: functions/theme-options.php:652
+msgid "Ubuntu, Latin-Ext"
+msgstr "Ubuntu, Latin-Ext"
+
+#: functions/theme-options.php:653
+msgid "Ubuntu, Latin / Cyrillic-Ext"
+msgstr "Ubuntu, Latin / Kiril-Ext"
+
+#: functions/theme-options.php:654
+msgid "Roboto, Latin-Ext"
+msgstr "Roboto, Latin-Ext"
+
+#: functions/theme-options.php:655
+msgid "Roboto, Latin / Cyrillic-Ext"
+msgstr "Roboto, Latin / Kiril-Ext"
+
+#: functions/theme-options.php:656
+msgid "Roboto Condensed, Latin-Ext"
+msgstr "Roboto Condensed, Latin-Ext"
+
+#: functions/theme-options.php:657
+msgid "Roboto Condensed, Latin / Cyrillic-Ext"
+msgstr "Roboto Condensed, Latin / Kiril-Ext"
+
+#: functions/theme-options.php:658
+msgid "Roboto Slab, Latin-Ext"
+msgstr "Roboto Slab, Latin-Ext"
+
+#: functions/theme-options.php:659
+msgid "Roboto Slab, Latin / Cyrillic-Ext"
+msgstr "Roboto Slab, Latin / Kiril-Ext"
+
+#: functions/theme-options.php:660
+msgid "Playfair Display, Latin-Ext"
+msgstr "Playfair Ekranı, Latince-Ext"
+
+#: functions/theme-options.php:661
+msgid "Playfair Display, Latin / Cyrillic"
+msgstr "Playfair Ekranı, Latince / Kiril"
+
+#: functions/theme-options.php:662
+msgid "Open Sans, Latin-Ext"
+msgstr "Open Sans, Latin-Ext"
+
+#: functions/theme-options.php:663
+msgid "Open Sans, Latin / Cyrillic-Ext"
+msgstr "Open Sans, Latin / Kiril-Ext"
+
+#: functions/theme-options.php:664
+msgid "PT Serif, Latin-Ext"
+msgstr "PT Serif, Latin-Ext"
+
+#: functions/theme-options.php:665
+msgid "PT Serif, Latin / Cyrillic-Ext"
+msgstr "PT Serif, Latin / Kiril-Ext"
+
+#: functions/theme-options.php:666
+msgid "Arial"
+msgstr "Arial"
+
+#: functions/theme-options.php:667
+msgid "Georgia"
+msgstr "Gürcistan"
+
+#: functions/theme-options.php:668
+msgid "Verdana"
+msgstr "Verdana"
+
+#: functions/theme-options.php:669
+msgid "Tahoma"
+msgstr "Tahoma"
+
+#: functions/theme-options.php:676
+msgid "Header Logo Image Max-height"
+msgstr "Üstbilgi Logo Görüntüsü Maksimum Yükseklik"
+
+#: functions/theme-options.php:677
+msgid "Your logo image should have the double height of this to be high resolution"
+msgstr "Logo resminizin yüksek çözünürlüklü olması için bunun iki katı yüksekliğe sahip olması gerekir"
+
+#: functions/theme-options.php:690
+msgid "Website Max-width"
+msgstr "Web Sitesi Maksimum Genişliği"
+
+#: functions/theme-options.php:691
+msgid "Max-width of the container."
+msgstr "Konteynerin maksimum genişliği."
+
+#: functions/theme-options.php:704
+msgid "Article Max-width"
+msgstr "Makale Maksimum genişliği"
+
+#: functions/theme-options.php:705
+msgid "Max-width of the articles."
+msgstr "Makalelerin maksimum genişliği."
+
+#: functions/theme-options.php:718
+msgid "Featured Image Max-width"
+msgstr "Öne Çıkan Görsel Maksimum Genişlik"
+
+#: functions/theme-options.php:719
+msgid "Max-width of the single featured image."
+msgstr "Öne çıkan tek görselin maksimum genişliği."
+
+#: functions/theme-options.php:732
+msgid "Social Sidebar Color"
+msgstr "Sosyal Kenar Çubuğu Rengi"
+
+#: functions/theme-options.php:740
+msgid "Content Sidebar Color"
+msgstr "İçerik Kenar Çubuğu Rengi"
+
+#: functions/theme-options.php:748
+msgid "Item Background"
+msgstr "Öğe Arka Planı"
+
+#: functions/theme-options.php:756
+msgid "Comments Bubble"
+msgstr "Yorumlar Baloncuk"
+
+#: header.php:19
+msgid "Skip to content"
+msgstr "İçeriğe geç"
+
+#: inc/page-title.php:18
+msgid "Search result"
+msgstr "Arama sonucu"
+
+#: inc/page-title.php:20
+msgid "Search results"
+msgstr "Arama sonuçları"
+
+#: inc/page-title.php:25
+msgid "For the term"
+msgstr "Terim için"
+
+#: inc/page-title.php:27
+msgid "Please try another search:"
+msgstr "Lütfen başka bir arama deneyin:"
+
+#: inc/page-title.php:35
+msgid "Error 404."
+msgstr "Hata 404."
+
+#: inc/page-title.php:35
+msgid "Page not found!"
+msgstr "Sayfa bulunamadı!"
+
+#: inc/page-title.php:37
+msgid "The page you are trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr "Ulaşmaya çalıştığınız sayfa mevcut değil veya taşınmış. Aradığınızı bulmak için lütfen menüleri veya arama kutusunu kullanın."
+
+#: inc/post-nav.php:3
+msgid "Next"
+msgstr "Sonraki"
+
+#: inc/post-nav.php:4
+msgid "Previous"
+msgstr "Önceki"
+
+#: inc/related-posts.php:6
+msgid "You may also like..."
+msgstr "Siz de beğenebilirsiniz..."
+
+#: searchform.php:3
+msgid "To search type and hit enter"
+msgstr "Arama yapmak için yazın ve enter tuşuna basın"
+
+#: single.php:30
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#: single.php:37
+msgid "Tags:"
+msgstr "Etiketler:"
+

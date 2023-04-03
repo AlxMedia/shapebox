@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: halilnevzat.com\n"
+"Project-Id-Version: alx-exten\n"
+"Language: tr\n"
+
+#: inc/options.php:19
+msgid "Theme Extensions"
+msgstr "Tema Eklentileri"
+
+#: inc/options.php:25
+msgid "Social Share"
+msgstr "Sosyal Paylaşım"
+
+#: inc/options.php:31
+msgid "Image Upscale"
+msgstr "Resim Yeniden Boyutlandırma"
+
+#: inc/options.php:37
+msgid "Custom Sidebars"
+msgstr "Özel Kenar Çubukları"
+
+#: inc/options.php:43
+msgid "Custom Widgets"
+msgstr "Özel Bileşenler"
+
+#: inc/options.php:49
+msgid "Meta Boxes"
+msgstr "Meta Kutuları"
+
+#: inc/options.php:57
+msgid "Enable Social Share"
+msgstr "Sosyal Paylaşımı Etkinleştir"
+
+#: inc/options.php:65
+msgid "Twitter Username"
+msgstr "Twitter Kullanıcı Adı"
+
+#: inc/options.php:66
+msgid "Your @username will be added to share-tweets of your posts (optional)"
+msgstr "Gönderilerinizin paylaşımlı tweetlerine @kullanıcıadınız eklenecek (isteğe bağlı)"
+
+#: inc/options.php:74
+msgid "Enable Image Upscale"
+msgstr "Resim Yeniden Boyutlandırmayı Etkinleştir"
+
+#: inc/options.php:75
+msgid "Scales up small images and crops to the right thumbnail sizes (recommended)"
+msgstr "Küçük resimleri büyütür ve uygun küçük resim boyutuna kırpar (tavsiye edilir)"
+
+#: inc/options.php:82
+msgid "Create Sidebars"
+msgstr "Yan Çubuklar Oluştur"
+
+#: inc/options.php:83
+msgid "You must save and refresh the page to see your new sidebars."
+msgstr "Yeni yan çubuklarınızı görmek için sayfayı kaydetmeniz ve yenilemeniz gerekmektedir."
+
+#: inc/options.php:84
+msgid "Make sure that you save and refresh the page if you can not see the sidebars you have created."
+msgstr "Oluşturduğunuz yan çubukları göremiyorsanız sayfayı kaydetmeniz ve yenilemeniz gerektiğinden emin olun."
+
+#: inc/options.php:88
+msgid "sidebar"
+msgstr "yan çubuk"
+
+#: inc/options.php:95
+msgid "Sidebar Title"
+msgstr "Yan Çubuk Başlığı"
+
+#: inc/options.php:96
+msgid "The widget box title"
+msgstr "Araç kutusu başlığı"
+
+#: inc/options.php:101
+msgid "Sidebar ID"
+msgstr "Yan Çubuk Kimliği"
+
+#: inc/options.php:102
+msgid "This ID must be unique"
+msgstr "Bu kimlik benzersiz olmalıdır"
+
+#: inc/options.php:111 inc/widgets/alx-posts.php:19
+msgid "Alx Posts"
+msgstr "Alx Gönderileri"
+
+#: inc/options.php:119 inc/widgets/alx-tabs.php:19
+msgid "Alx Tabs"
+msgstr "Alx Sekmeleri"
+
+#: inc/options.php:127
+msgid "Post Format: Audio"
+msgstr "Gönderi Biçimi: Ses"
+
+#: inc/options.php:135
+msgid "Post Format: Video"
+msgstr "Gönderi Biçimi: Video"
+
+#: inc/post-formats.php:14
+msgid "Format: Audio"
+msgstr "Biçim: Ses"
+
+#: inc/post-formats.php:23
+msgid "Audio URL"
+msgstr "Ses URL'si"
+
+#: inc/post-formats.php:36
+msgid "Format: Video"
+msgstr "Biçim: Video"
+
+#: inc/post-formats.php:45
+msgid "Video URL"
+msgstr "Video URL'si"
+
+#: inc/share-footer.php:18 inc/share-footer.php:19 inc/share-footer.php:29
+#: inc/share-footer.php:42 inc/share.php:18
+msgid "Share"
+msgstr "Paylaş"
+
+#: inc/share-footer.php:29
+msgid "on Twitter"
+msgstr "Twitter'da"
+
+#: inc/share-footer.php:42
+msgid "on Facebook"
+msgstr "Facebook'ta"
+
+#: inc/share.php:19
+msgid "Tweet"
+msgstr "Tweet"
+
+#: inc/share.php:20
+msgid "Like"
+msgstr "Beğen"
+
+#: inc/share.php:21
+msgid "Pin It"
+msgstr "Pinle"
+
+#: inc/share.php:22
+msgid "Share on LinkedIn"
+msgstr "LinkedIn'da Paylaş"
+
+#: inc/widgets/alx-posts.php:19
+msgid "Display posts from a category"
+msgstr "Bir kategoriden gönder"
+
+#: inc/widgets/alx-posts.php:141 inc/widgets/alx-tabs.php:317
+msgid "Title:"
+msgstr "Başlık:"
+
+#: inc/widgets/alx-posts.php:145
+msgid "List Posts"
+msgstr "Yazıları Listele"
+
+#: inc/widgets/alx-posts.php:149 inc/widgets/alx-tabs.php:329
+#: inc/widgets/alx-tabs.php:349
+msgid "Show thumbnails"
+msgstr "Küçük Resimleri Göster"
+
+#: inc/widgets/alx-posts.php:152 inc/widgets/alx-tabs.php:332
+#: inc/widgets/alx-tabs.php:352 inc/widgets/alx-tabs.php:382
+msgid "Items to show"
+msgstr "Gösterilecek Öğeler"
+
+#: inc/widgets/alx-posts.php:156 inc/widgets/alx-tabs.php:336
+#: inc/widgets/alx-tabs.php:356
+msgid "Category:"
+msgstr "Kategori:"
+
+#: inc/widgets/alx-posts.php:157 inc/widgets/alx-tabs.php:337
+#: inc/widgets/alx-tabs.php:357
+msgid "All"
+msgstr "Tümü"
+
+#: inc/widgets/alx-posts.php:160
+msgid "Order by:"
+msgstr "Sırala:"
+
+#: inc/widgets/alx-posts.php:162
+msgid "Most recent"
+msgstr "En yeni"
+
+#: inc/widgets/alx-posts.php:163
+msgid "Most commented"
+msgstr "En çok yorumlanan"
+
+#: inc/widgets/alx-posts.php:164
+msgid "Random"
+msgstr "Rastgele"
+
+#: inc/widgets/alx-posts.php:168
+msgid "Posts from:"
+msgstr "Gönderilerden:"
+
+#: inc/widgets/alx-posts.php:170 inc/widgets/alx-tabs.php:362
+msgid "All time"
+msgstr "Tüm zamanlar"
+
+#: inc/widgets/alx-posts.php:171 inc/widgets/alx-tabs.php:363
+msgid "This year"
+msgstr "Bu yıl"
+
+#: inc/widgets/alx-posts.php:172 inc/widgets/alx-tabs.php:364
+msgid "This month"
+msgstr "Bu ay"
+
+#: inc/widgets/alx-posts.php:173 inc/widgets/alx-tabs.php:365
+msgid "This week"
+msgstr "Bu hafta"
+
+#: inc/widgets/alx-posts.php:174 inc/widgets/alx-tabs.php:366
+msgid "Past 24 hours"
+msgstr "Son 24 saat"
+
+#: inc/widgets/alx-posts.php:179
+msgid "Post Info"
+msgstr "Gönderi Bilgisi"
+
+#: inc/widgets/alx-posts.php:183 inc/widgets/alx-tabs.php:419
+msgid "Show categories"
+msgstr "Kategorileri Göster"
+
+#: inc/widgets/alx-posts.php:187 inc/widgets/alx-tabs.php:423
+msgid "Show dates"
+msgstr "Tarihleri Göster"
+
+#: inc/widgets/alx-tabs.php:19
+msgid "List posts, comments, and/or tags with or without tabs."
+msgstr "Sekmelerle veya sekmeler olmadan yazıları, yorumları ve/veya etiketleri listele."
+
+#: inc/widgets/alx-tabs.php:57 inc/widgets/alx-tabs.php:321
+msgid "Recent Posts"
+msgstr "Son Gönderiler"
+
+#: inc/widgets/alx-tabs.php:58
+msgid "Popular Posts"
+msgstr "Popüler Yazılar"
+
+#: inc/widgets/alx-tabs.php:59 inc/widgets/alx-tabs.php:371
+msgid "Recent Comments"
+msgstr "Son Yorumlar"
+
+#: inc/widgets/alx-tabs.php:60 inc/widgets/alx-tabs.php:387
+#: inc/widgets/alx-tabs.php:410
+msgid "Tags"
+msgstr "Etiketler"
+
+#: inc/widgets/alx-tabs.php:221
+msgid "says:"
+msgstr "yazdı:"
+
+#: inc/widgets/alx-tabs.php:325
+msgid "Enable recent posts"
+msgstr "Son gönderileri etkinleştir"
+
+#: inc/widgets/alx-tabs.php:341
+msgid "Most Popular"
+msgstr "En Popüler"
+
+#: inc/widgets/alx-tabs.php:345
+msgid "Enable most popular posts"
+msgstr "En popüler gönderileri etkinleştir"
+
+#: inc/widgets/alx-tabs.php:360
+msgid "Post with most comments from:"
+msgstr "En çok yorum alan gönderileri şuradan getir:"
+
+#: inc/widgets/alx-tabs.php:375
+msgid "Enable recent comments"
+msgstr "Son yorumları etkinleştir"
+
+#: inc/widgets/alx-tabs.php:379
+msgid "Show avatars"
+msgstr "Avatarları göster"
+
+#: inc/widgets/alx-tabs.php:391
+msgid "Enable tags"
+msgstr "Etiketleri etkinleştir"
+
+#: inc/widgets/alx-tabs.php:395
+msgid "Tab Order"
+msgstr "Sekme Sırası"
+
+#: inc/widgets/alx-tabs.php:398
+msgid "Recent posts"
+msgstr "Son gönderiler"
+
+#: inc/widgets/alx-tabs.php:402
+msgid "Most popular"
+msgstr "En popüler"
+
+#: inc/widgets/alx-tabs.php:406
+msgid "Recent comments"
+msgstr "Son Yorumlar"
+
+#: inc/widgets/alx-tabs.php:415
+msgid "Tab Info"
+msgstr "Sekme Bilgisi"
+
