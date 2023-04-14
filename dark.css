@@ -10,6 +10,10 @@ body:where(.dark) .blog-single-format,
 body:where(.dark) .blog-card-inner,
 body:where(.dark) .featured-link:focus,
 body:where(.dark) .slick-image-slide { background-color: #141416; }
+body:where(.dark) .border{
+	border:solid;
+	border-color: #c14bff;
+}
 
 body:where(.dark) .featured-item,
 body:where(.dark) .blog-single-inner { background-color: #141416; }

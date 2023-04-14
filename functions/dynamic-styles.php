@@ -28,6 +28,8 @@ if ( ! function_exists( 'shapebox_hex2rgb' ) ) {
 }	
 
 
+
+
 /*  Google fonts
 /* ------------------------------------ */
 if ( ! function_exists( 'shapebox_enqueue_google_fonts' ) ) {
@@ -136,6 +138,10 @@ if ( ! function_exists( 'shapebox_dynamic_css' ) ) {
 			// gradient left
 			if ( get_theme_mod('gradient-left','#c14bff') != '#c14bff' ) {
 				$styles .= '
+				.border{
+					border:solid;
+					border-color: '.esc_attr( get_theme_mod('gradient-left') ).';
+				}
 #profile,
 .toggle-search,
 .toggle-search.active,
@@ -163,6 +169,10 @@ if ( ! function_exists( 'shapebox_dynamic_css' ) ) {
 			// gradient right
 			if ( get_theme_mod('gradient-right','#6c5dd3') != '#6c5dd3' ) {
 				$styles .= '
+				.border{
+					border:solid;
+					border-color: '.esc_attr( get_theme_mod('gradient-left') ).';
+				}
 #profile,
 .toggle-search,
 .toggle-search.active,
@@ -211,3 +221,5 @@ body { background-color: '.esc_attr( get_theme_mod('color-background') ).'; }
 	
 }
 add_action( 'wp_enqueue_scripts', 'shapebox_dynamic_css' );
+
+

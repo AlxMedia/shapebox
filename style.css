@@ -1014,6 +1014,10 @@ body.dark #theme-toggle-btn:before { border-color: #141416; top: 34px; box-shado
 .blog-card-comments span { font-size: 12px; font-weight: 800; color: #fff; line-height: 30px; position: absolute; right: 0; top: 0; width: 100%; text-align: center; transition: all 0.3s ease; }
 .blog-card-comments:hover { color: #333; }
 .blog-card-comments:hover span { color: #fff; }
+.border{
+	border:solid;
+	border-color: #c14bff;
+}
 
 .blog-card-author a:focus img,
 .blog-single-author a:focus img { border-color: #ccc; }

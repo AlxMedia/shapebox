@@ -739,3 +739,21 @@ function shapebox_register_strings() {
 	pll_register_string( 'profile_description', get_theme_mod( 'profile-description' ), 'shapebox' );
 }
 add_action( 'admin_init', 'shapebox_register_strings' );
+
+
+
+
+function shapebox_border() {
+	if ( ( get_theme_mod( 'border-sw','off' ) == 'off' )){
+		?>
+	<script>
+		var elements = document.getElementsByClassName("blog-card-wrap");
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].classList.add("border");
+    }
+		</script>
+	<?php
+	}
+	
+}
+add_action( 'wp_print_footer_scripts', 'shapebox_border' );

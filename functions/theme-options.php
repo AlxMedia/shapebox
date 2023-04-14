@@ -730,6 +730,20 @@ Kirki::add_field( 'shapebox_theme', array(
 	'section'		=> 'styling',
 	'default'		=> 'on',
 ) );
+// Styling: border
+Kirki::add_field( 'shapebox_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'border-sw',
+	'label'			=> esc_html__( 'Turn On Border', 'shapebox' ),
+	'description'	=> esc_html__( 'Border for blog posts', 'shapebox' ),
+	'section'		=> 'styling',
+	'default'     => 'off',
+		'choices'     => [
+			'on'  => esc_html__( 'Enable', 'kirki' ),
+			'off' => esc_html__( 'Disable', 'kirki' ),
+		],
+) );
+
 // Styling: Primary Color
 Kirki::add_field( 'shapebox_theme', array(
 	'type'			=> 'color',
