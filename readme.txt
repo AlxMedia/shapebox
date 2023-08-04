@@ -89,6 +89,7 @@ Sidebar images
 
 = 1.1.1 - 2023-08-04 =
 * Updated to Font Awesome 6.4.2
+* Updated to Kirki 4.2.0
 
 = 1.1.0 - 2022-08-29 =
 * Improved the dark mode toggle
