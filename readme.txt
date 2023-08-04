@@ -87,6 +87,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.1.1 - 2023-08-04 =
+* Updated to Font Awesome 6.4.2
+
 = 1.1.0 - 2022-08-29 =
 * Improved the dark mode toggle
 * Added option to disable inverted color for dark mode logo
