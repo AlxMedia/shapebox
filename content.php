@@ -4,12 +4,11 @@
 
 		<div class="blog-card group">
 			
-			<a href="<?php the_permalink(); ?>" class="blog-card-inner">
+			<a href="<?php the_permalink(); ?>" class="blog-card-inner" style="background-image:url('<?php the_post_thumbnail_url('shapebox-medium'); ?>');">
 			
 				<?php if ( has_post_format('video') && !is_sticky() ) echo'<span class="thumb-icon small"><i class="fas fa-play"></i></span>'; ?>
 				<?php if ( has_post_format('audio') && !is_sticky() ) echo'<span class="thumb-icon small"><i class="fas fa-volume-up"></i></span>'; ?>
 				<?php if ( is_sticky() ) echo'<span class="thumb-icon small"><i class="fas fa-star"></i></span>'; ?>
-	                        <?php if ( !is_sticky() && !has_post_format('video') && !has_post_format('audio') ) echo'<img src="<?php the_post_thumbnail_url('shapebox-medium'); ?>"</img>'; ?>
 				
 				<?php if ( comments_open() && ( get_theme_mod( 'comment-count', 'on' ) =='on' ) ): ?>
 					<a class="blog-card-comments" href="<?php comments_link(); ?>"><i class="fas fa-comment"></i><span><?php comments_number( '0', '1', '%' ); ?></span></a>
