@@ -23,8 +23,8 @@
 
 					<?php else: ?>
 
-						<div class="blog-single-inner" style="background-image:url('<?php the_post_thumbnail_url('shapebox-large'); ?>');">
-
+						<div class="blog-single-inner">
+								<img src="<?php the_post_thumbnail_url('shapebox-large'); ?>" alt="<?php the_title(); ?>"> </img>
 							<?php if ( comments_open() && ( get_theme_mod( 'comment-count', 'on' ) =='on' ) ): ?>
 								<a class="blog-card-comments" href="<?php comments_link(); ?>"><i class="fas fa-comment"></i><span><?php comments_number( '0', '1', '%' ); ?></span></a>
 							<?php endif; ?>
