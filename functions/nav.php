@@ -171,7 +171,7 @@ class Nav {
 		}
 		?>
 		<nav id="<?php echo esc_attr( $args['menu_id'] ); ?>-nav" class="<?php echo esc_attr( $nav_classes ); ?>">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Toggle menu" role="button">
 				<?php
 				/**
 				 * Note to code reviewers:

@@ -201,13 +201,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-a,
-a:before,
-a:after {
-  transition-property: background color;
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
-}
 a img {
   transition: opacity 0.2s ease;
 }
@@ -1683,7 +1676,7 @@ body.dark #theme-toggle-btn:before {
 }
 .site-title a img {
   display: block;
-  max-width: 100%;
+  max-width: 60px;
   max-height: 60px;
   height: auto;
   padding: 0;
@@ -3489,12 +3482,6 @@ body.search .type-page .blog-card-author {
 }
 .post-nav li.next i {
   right: 10px;
-}
-.post-nav li a span,
-.post-nav li a i {
-  transition-property: background color;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-out;
 }
 
 .sidebar .post-nav {
